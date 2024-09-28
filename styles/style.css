@@ -91,7 +91,7 @@ main {
     background-position: center;
     background-size: cover;
 }
-.overlay{
+.overlay {
     position: absolute;
     background: #000000;
     opacity: 60%;
@@ -173,7 +173,7 @@ main {
     line-height: 46.96px;
     text-align: left;
 }
-.lots__card-list{
+.lots__card-list {
     display: flex;
     gap: 25px;
 }
@@ -213,7 +213,7 @@ main {
     padding: 51px 40px 48px 40px;
 }
 .card__title,
-.card__text{
+.card__text {
     position: relative;
 }
 .card__title {
@@ -345,7 +345,7 @@ footer {
     font-weight: 400;
     line-height: 21.13px;
 }
-.footer__menu-list-item > .footer__menu-link > .footer__menu-link_active{
+.footer__menu-list-item > .footer__menu-link > .footer__menu-link_active {
     border-bottom: none;
 }
 .footer__social-list {
