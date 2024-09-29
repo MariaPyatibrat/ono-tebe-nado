@@ -12,23 +12,27 @@
   </head>
   <body>
     <header class="header">
-        <div class="header__menu">
-            <div class="header__links-list">
-                <div class="header__links-list-item header__links-list-item__without-marker"><a>главная</a></div>
-                <div class="header__links-list-item header__links-list-item__marker" style="margin-right: 11px"></div>
-                <div class="header__links-list-item header__links-list-item__emphasized-middle-block"><a>посмотреть лоты</a></div>
-                <div class="header__links-list-item header__links-list-item__marker" style="margin-right: 12px"></div>
-                <div class="header__links-list-item header__links-list-item__emphasized-extreme-block"><a>об аукционе</a></div>
-            </div>
-        </div>
+        <nav class="header__menu">
+            <ul class="header__links-list">
+                <li class="header__links-list-item header__links-list-item__without-marker">
+                    <a class="header_link header_link_active" href="#">главная</a>
+                </li>
+                <li class="header__links-list-item header__links-list-item__emphasized-middle-block">
+                    <a class="header_link" href="#">посмотреть&nbsp;лоты</a>
+                </li>
+                <li class="header__links-list-item header__links-list-item__emphasized-extreme-block">
+                    <a class="header_link" href="#">об&nbsp;аукционе</a>
+                </li>
+            </ul>
+        </nav>
         <a href="#" target="_blank" class="header__logo">
-            <img src="./images/logo-black.svg" alt="" class="header__logo-image" />
+            <img src="./images/logo-black.svg" alt="Логотип Оно Тебе Надо" class="header__logo-image" />
         </a>
-        <address class="header__address">
+        <address class="address header__address">
             <a href="tel:+70000000">+9 999 555 5555</a>
             <a href="mailto:mail@example.com">info@sobaka.ge</a>
-            <div class="text__address">
-                наб. Принсенграхт 263- <br>265, Амстердам
+            <div>
+                наб.&nbsp;Принсенграхт&nbsp;263-<br>265, Амстердам
             </div>
         </address>
     </header>
@@ -37,8 +41,8 @@
             <div class="overlay"></div>
             <h1 class="cover_title">
                 <span class="aligned-text_top">О<span class="letter-spacing-extended">но</span></span>
-                <span class="aligned-text_center" style="margin-top: 7px">те<span class="letter-spacing-extended">бе</span></span>
-                <span class="aligned-text_right" style="margin-top: 3px"><span class="letter-spacing-extended">н</span>ад<span
+                <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+                <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span
                       class="no-letter-spacing">о</span></span>
             </h1>
             <div class="cover_description">
@@ -49,7 +53,7 @@
             </div>
         </section>
         <section class="lots">
-            <h2 class="lots__heading">ЛОТЫ</h2>
+            <h2 class="lots__heading">Лоты</h2>
 
             <ul class="lots__card-list">
                 <li class="lots__card-list-item">
@@ -82,7 +86,7 @@
                     </a>
                 </li>
             </ul>
-            <div style="margin-left: 40px; border-bottom: 1px solid black; width: fit-content">
+            <div class="lots__show-more">
                 <a href="#" class="lots__look-more-link">посмотреть больше</a>
             </div>
         </section>
@@ -92,29 +96,27 @@
                     <img src="images/logo-white.svg" alt="Логотип" class="about__logo-image">
                 </div>
             </div>
-            <div class="about__column about__column--right">
-                <div>
-                    <h2 class="about__title">ОБ АУКЦИОНЕ</h2>
-                    <p class="about__text upper">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-                    <p class="about__text lower">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря <br/>
+            <article class="about__column about__column--right">
+                <h2 class="about__title">Об аукционе</h2>
+                <div class="about__text__wrapper">
+                    <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+                    <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря <br/>
                         на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
                 </div>
-            </div>
+            </article>
         </section>
     </main>
     <footer>
         <div class="footer__column">
             <address class="address">
                 <a href="tel:+70000000">+9 999 555 5555</a>
-                <a href="mailto:mail@example.com">info@sobaka.ge</a>
-                <div class="text__address">
-                    наб. Принсенграхт 263- <br>265, Амстердам
-                </div>
+                <a href="mailto:mail@example.com">info@sobaka.ge</a> <br/>
+                наб. Принсенграхт 263- <br>265, Амстердам
             </address>
             <nav class="footer__column footer__menu">
                 <ul class="footer__menu-list">
                     <li class="footer__menu-list-item">
-                        <div class="footer__menu-link footer__menu-link_active">главная</div>
+                        <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
                     </li>
                     <li class="footer__menu-list-item">
                         <a href="#" class="footer__menu-link">посмотреть лоты</a>
@@ -124,7 +126,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="footer__column">
+            <nav class="footer__column">
                 <ul class="footer__social-list">
                     <li class="footer__social-list-item">
                         <a href="#" class="footer__social-link">
@@ -142,7 +144,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </footer>
   </body>
