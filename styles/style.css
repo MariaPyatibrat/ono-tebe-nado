@@ -8,25 +8,20 @@ header {
     font-weight: 400;
     font-size: 18px;
 }
-.header__menu {}
 .header__links-list {
     display: flex;
     align-items: center;
     gap: 32px;
 }
-
 .header__links-list-item {
     list-style-type: circle
 }
-
 .header__links-list-item__without-marker {
     list-style: none;
 }
-
 .header_link_active {
     text-decoration: none;
 }
-
 .header__logo {
     display: flex;
     justify-content: center;
@@ -35,12 +30,10 @@ header {
     height: fit-content;
     margin-left: 47px;
 }
-
 .header__logo > img {
     width: 129.11px;
     height: 104.65px;
 }
-
 .address {
     max-width: 240.52px;
     font-family: Raleway, sans-serif;
@@ -260,13 +253,11 @@ main {
     margin-bottom: 100px;
     text-transform: uppercase;
 }
-
 .about__text__wrapper {
     display: flex;
     flex-direction: column;
     gap: 23px;
 }
-
 .about__text {
     font-family: Raleway, sans-serif;
     font-size: 20px;
